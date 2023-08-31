@@ -1,4 +1,4 @@
-class Base_Dice
+class BaseDice
   def sides
     raise StandardError, "You must set the number of sides in your child Class"
   end
