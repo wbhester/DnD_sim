@@ -1,5 +1,5 @@
 require_relative 'baseclass'
-class Thief < Base_Class
+class Thief < BaseClass
     def hp
         10
     end
