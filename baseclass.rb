@@ -8,5 +8,8 @@ class BaseClass
   def agl 
     raise StandardError, "You must set the AGL in your child Class"
   end
-  attr_reader :hp, :mp
+  def job
+    @job = job
+  end
+  attr_reader :hp, :mp, :agl, :job
 end
