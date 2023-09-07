@@ -1,4 +1,8 @@
 class BaseClass
+  def initialize(name = "none", job = "none")
+    @job = job
+    @name = name
+  end
   def hp
     raise StandardError, "You must set the HP in your child Class"
   end
@@ -11,5 +15,5 @@ class BaseClass
   def job
     @job = job
   end
-  attr_reader :hp, :mp, :agl, :job
+  attr_reader :hp, :mp, :agl, :job, :name
 end
