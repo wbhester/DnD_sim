@@ -1,6 +1,8 @@
 require_relative 'baseclass'
 class Thief < BaseClass
-    def initialize(job)
+    def initialize(name, job)
+        @job = job
+        @name = name
     end
     def hp
         10
